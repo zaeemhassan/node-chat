@@ -1,12 +1,12 @@
 "use strict";
 
-console.log(__dirname)
+
 return false;
 var http = require('http');
 var url = require('url');
 var qs = require('querystring');
 // @link https://github.com/theturtle32/WebSocket-Node
-var WebsocketServer = require('websocket').server;
+var WebsocketServer = require('/app/websocket').server;
 
 /**
  * There are two types of HTTP requests that can happen

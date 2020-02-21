@@ -16,6 +16,8 @@ var WebsocketServer = require('/app/websocket').server;
  * @example 	2. 	Client-Websocket Request
  * @description		* This request initiates a websocket connection between the server and the client
  */
+
+console.log('DEP LOADED YAYYY!!');
 var server = http.createServer(function(request,response) {
 
 

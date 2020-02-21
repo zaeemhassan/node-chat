@@ -2,9 +2,9 @@
   "name": "chat-app-zaeem",
   "version": "8.12.0",
   "description": "chat-app-zaeem",
-  "main": "app/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node /app/server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

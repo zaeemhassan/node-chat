@@ -42,7 +42,9 @@ var server = http.createServer(function(request,response) {
 	            var POST = qs.parse(body);
 	            callback(POST);
 	        });
-	    }
+	    }else{
+	    	console.log("GET Received by zaeem")
+		}
 	}
 
     // in-server request from PHP

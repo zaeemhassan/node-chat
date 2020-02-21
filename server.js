@@ -1,6 +1,6 @@
 "use strict";
 
-console.log('HELLO')
+console.log(__dirname)
 return false;
 var http = require('http');
 var url = require('url');

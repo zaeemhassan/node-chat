@@ -1,7 +1,7 @@
 {
-  "name": "Bern-Chat",
+  "name": "chat-app-zaeem",
   "version": "1.0.0",
-  "description": "Bern chat",
+  "description": "chat-app-zaeem",
   "main": "server.js",
   "scripts": {
   "start": "node server.js"

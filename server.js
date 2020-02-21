@@ -58,8 +58,8 @@ var server = http.createServer(function(request,response) {
 		return;
 	}
 });
-server.listen(80,function(){
-	console.log('Listening to port 80')
+server.listen(8989,function(){
+	console.log('Listening to port 8989')
 });
 
 /* 

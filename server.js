@@ -57,7 +57,9 @@ var server = http.createServer(function(request,response) {
 		return;
 	}
 });
-server.listen(8080);
+server.listen(8080,function(){
+	console.log('Listening to port 8080')
+});
 
 /* 
 	Handling websocket requests

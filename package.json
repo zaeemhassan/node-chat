@@ -1,0 +1,19 @@
+{
+  "name": "Bern-Chat",
+  "version": "1.0.0",
+  "description": "Bern chat",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js"
+},
+  "repository": {
+  "type": "git",
+  "url": ""
+},
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  "url": ""
+},
+  "homepage": ""
+}

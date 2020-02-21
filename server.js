@@ -59,7 +59,7 @@ var server = http.createServer(function(request,response) {
 	}
 });
 server.listen(process.env.PORT,function(){
-	console.log('Listening to port 8989')
+	console.log('Listening to port '+process.env.PORT)
 });
 
 /* 

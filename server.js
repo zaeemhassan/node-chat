@@ -50,6 +50,7 @@ var server = http.createServer(function(request,response) {
 
     // in-server request from PHP
     if (request.method === "POST") {
+    	console.log("POST REVEICED");
     	getPostParams(request, function(POST) {
 			messageClients(POST.data,request);
 			response.writeHead(200);
